@@ -1,0 +1,12 @@
+ul, ol {
+  margin-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-lg);
+}
+
+li {
+  margin-bottom: var(--spacing-xs);
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-bottom: 0;
+}
